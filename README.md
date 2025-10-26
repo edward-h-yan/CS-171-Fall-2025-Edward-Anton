@@ -17,5 +17,15 @@ I will be using the Animals-10 image dataset from Kaggle for this image classifi
 I will utilize a Convolutional Neural Network (CNN) for this 10-class image classification task. As we have learned in class, CNNs are specifically designed to process image data by automatically and adaptively learning spatial hierarchies of features through convolutional layers so it will be the best choice for this task. For this CNN's framework, I will implement multiple convolution layers (followed by ReLU), pooling, batch normalization, and a final set of fully connected layers. The final output layer will have 10 neurons (one for each animal class). For the training process, I plan to use Cross-Entropy Loss for the loss function and for the Optimizer, I will use the Adam Optimizer. Until I test out what works best for the model, other parameters such as number of epochs and learning rate are undecided for now.
 
 ### Project Timeline:
-#### Edward:
-#### Anton:
+#### Week 11
+- Digest dataset and work on reading in and separating image data
+#### Week 12
+- Create training and testing datasets. Use data augmentation techniques for the training set.
+#### Week 13
+- Create basic working CNN model with plots to show losses and performance
+#### Week 14
+- Optimize model's parameters and test model on various parameters. Add techniques to combat overfitting and adjust model's layers as needed.
+#### Week 15
+- Final touches to model and create presentation for Week 16
+#### Week 16
+- Presentation in class
