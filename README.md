@@ -9,6 +9,7 @@ The question we want to answer during this project is whether a machine learning
 ### Data Collection Plan:
 #### Edward:
 #### Anton:
+I will be using the Animals-10 image dataset from Kaggle for this image classification task. This dataset contains images across ten distinct categories: dog, cat, horse, spider, butterfly, chicken, sheep, cow, squirrel, and elephant. The images are already organized into separate subdirectories, with each directory's name corresponding to its respective animal class. To create robust training and testing datasets for the model, I will use a stratified split to ensure that the class distribution within the resulting train and test sets is proportional to the original dataset. This way, there are not class imbalance issues during evaluation
 
 ### Model Plans:
 #### Edward:
