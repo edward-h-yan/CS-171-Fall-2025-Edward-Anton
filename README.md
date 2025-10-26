@@ -14,6 +14,7 @@ I will be using the Animals-10 image dataset from Kaggle for this image classifi
 ### Model Plans:
 #### Edward:
 #### Anton:
+I will utilize a Convolutional Neural Network (CNN) for this 10-class image classification task. As we have learned in class, CNNs are specifically designed to process image data by automatically and adaptively learning spatial hierarchies of features through convolutional layers so it will be the best choice for this task. For this CNN's framework, I will implement multiple convolution layers (followed by ReLU), pooling, batch normalization, and a final set of fully connected layers. The final output layer will have 10 neurons (one for each animal class). For the training process, I plan to use Cross-Entropy Loss for the loss function and for the Optimizer, I will use the Adam Optimizer. Until I test out what works best for the model, other parameters such as number of epochs and learning rate are undecided for now.
 
 ### Project Timeline:
 #### Edward:
